@@ -32,7 +32,7 @@ const store = new Vuex.Store({
       shadow_blur: 0,
       triangle_width: 12,
       triangle_height: 6,
-      text: 'Tooltip'
+      text: 'Ridiculous Questions'
     }
   },
 
