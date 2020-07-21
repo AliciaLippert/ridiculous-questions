@@ -3,8 +3,8 @@
 
     <section class="w-full flex items-center justify-center">
         <!-- <img src="@/assets/icons/gopher.jpg"> -->
-        <p class="text-center py-3 text-sm">Let's happy hour y'all</p>
-    </section>
+<!--         <p class="text-center py-3 text-sm">Let's happy hour y'all</p>
+ -->    </section>
 
     <section class="w-full flex items-center justify-center question">
       <div class="relative">
@@ -15,7 +15,7 @@
 
     <section class="w-full flex items-center justify-center flex-grow">
       <div class="relative">
-        <a href="#" class="rainbow-button" v-on:click="person(); picker();">Question!</a>
+        <a href="#" class="rainbow-button" v-on:click="picker();">Question!</a>
       </div>
     </section>
 
@@ -78,7 +78,6 @@ export default {
     "If you had a silo, what would you store in it?",
     "What’s the most pretentious book you’ve ever bought but not read?",
     "What’s the most impulsive thing you’ve ever done?",
-    "Who was the first person you ever had a crush on?",
     "What’s the most unusual restaurant you’ve ever been to?",
     "What thing that seemingly everyone loves do you not like that much?",
     "Do you have something that you should regret, but you don’t?",
@@ -136,7 +135,29 @@ export default {
     "If you didn't live where you live now, where would you live?",
     "How would you break out of prison?",
     "If you could time travel and say only five words to your younger self, what would those words be?",
-    "Where is the fanciest place you've ever been?"
+    "Where is the fanciest place you've ever been?",
+    "Is cereal soup?",
+    "What secret conspiracy would you like to start?",
+    "What are the unwritten MongoDB rules?",
+    "What is something that everyone looks stupid doing?",
+    "What part of a kid’s movie completely scarred you?", 
+    "What inanimate object do you wish you could eliminate from existence (excluding the ones that kill people)?",
+    "If peanut butter wasn’t called peanut butter, what would it be called?",
+    "What movie would be greatly improved if it was made into a musical?",
+    "What sport would be the funniest to add a mandatory amount of alcohol to?",
+    "What would be the coolest animal to scale up to the size of a horse?",
+    "What would the world be like if it was filled with male and female copies of you?",
+    "If you were arrested with no explanation, what would your friends and family assume you had done?",
+    "If someone asked to be your apprentice and learn all that you know, what would you teach them?",
+    "If all the States in the USA were represented by one food, what state would you want to live in based on that food?",
+    "Do you have a preferred ear?", 
+    "Chickens or Moscow?",
+    "Would you rather wear a hat made out of beef or shoes made out of yogurt?",
+    "Do you have a favorite plate?", 
+    "To be or not to be?", 
+    "If you could have a dream dinner party with any person living or dead, who would you employ to do the dishes?",
+    "What do you think fish are thinking about?"
+
   ],
 
   team: [
